@@ -1,0 +1,29 @@
+// Utilização do método toString()
+let numero = 123;
+let exToString = numero.toString()
+console.log(typeof exToString);
+
+// Utilização do toExponential()
+let a = 9.648;
+let exToExponential = a.toExponential(2);
+console.log(exToExponential);
+
+// Utilização do toFixed()
+let b = 44.7654987;
+let exToFixed = b.toFixed();
+console.log(exToFixed);
+
+// Utilização do método toPrecision()
+let c = 63.874632901;
+let exToPrecision = c.toPrecision(4)
+console.log(typeof exToPrecision);
+
+// Utilização do método valueOf()
+let d = 1993;
+let exValueOf = d.valueOf()
+console.log(exValueOf);
+
+// Utilização do método Number()
+let e = "593";
+let exNumber = Number(e);
+console.log(exNumber);
