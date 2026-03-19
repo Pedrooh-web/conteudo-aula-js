@@ -1,7 +1,7 @@
 // Alterando atributo
 const elemento = document.querySelector(".ex1")
 
-elemento.src = "tigrinho.png";
+elemento.src = "./img/tigrinho.png";
 elemento.width = 800;
 
 // Conteúdo dinâmico (data)
